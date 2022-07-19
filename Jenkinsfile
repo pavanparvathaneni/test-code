@@ -26,7 +26,7 @@ pipeline{
                 sudo systemctl restart httpd
                 sudo systemctl status httpd
                 date
-                ps -ef |grep http
+                ps -ef |grep 35
                 '''
             }
         }    
